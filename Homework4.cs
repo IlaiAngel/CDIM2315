@@ -10,6 +10,7 @@ class Program
         int number2 = Convert.ToInt16(Console.ReadLine());
 
         int big = FindBig(number1, number2);
+        Console.WriteLine($"a = {number1}; b = {number2} ");
         Console.WriteLine($"the largest number is: {big}");
 
         FindN();
